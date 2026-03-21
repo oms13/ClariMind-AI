@@ -109,10 +109,13 @@ clarity-mind-ai/
 ## ⚠️ Notes
 
 • Always load the `dist/ folder`, not `src/`
+
 • Make sure backend is running before using the extension
+
 • If extension doesn’t update, click Reload in `chrome://extensions/`
 
 ---
 
 Built with 💡 by Om Sahu
+
 If you like this project, give it a ⭐ on GitHub!
