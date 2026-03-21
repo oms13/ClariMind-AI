@@ -38,3 +38,21 @@ Follow these steps to get the development environment running:
 git clone [https://github.com/oms13/ClariMind-AI.git](https://github.com/oms13/ClariMind-AI.git)
 cd ClariMind-AI
 ```
+
+2. Install dependencies:
+
+You need to install the required packages for both the client and the server.
+
+```bash
+# Navigate to the client folder and install
+cd client
+npm install
+
+# Navigate to the server folder and install
+cd ../server
+npm install
+```
+
+3. Run the development server:
+
+Return to the root directory of the project. Running the dev script will simultaneously build the client's `dist` folder and start the Node.js backend using Nodemon.
