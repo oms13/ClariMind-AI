@@ -98,21 +98,17 @@ clarity-mind-ai/
 
 ## 💡 Tech Stack
 
-• Frontend: JavaScript, Chrome Extension APIs
-
-• Backend: Node.js, Express
-
-• AI: Gemini API
+* Frontend: JavaScript, Chrome Extension APIs
+* Backend: Node.js, Express
+* AI: Gemini API
 
 ---
 
 ## ⚠️ Notes
 
-• Always load the `dist/ folder`, not `src/`
-
-• Make sure backend is running before using the extension
-
-• If extension doesn’t update, click Reload in `chrome://extensions/`
+* Always load the `dist/ folder`, not `src/`
+* Make sure backend is running before using the extension
+* If extension doesn’t update, click Reload in `chrome://extensions/`
 
 ---
 
