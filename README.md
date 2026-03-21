@@ -107,9 +107,21 @@ clarity-mind-ai/
 
 ## 💡 Tech Stack
 
-* Frontend: JavaScript, Chrome Extension APIs
-* Backend: Node.js, Express
-* AI: Gemini API
+- Chrome Extension (Manifest V3)
+- JavaScript (ES6+)
+- Node.js + Express
+- Gemini API (AI processing)
+- MongoDB (data handling)
+
+---
+
+## 🚀 Future Improvements
+
+- 🌙 Dark mode support  
+- 🌍 Multi-language explanations  
+- 📌 Save & bookmark explanations  
+- ⚡ Faster response optimization  
+- 🧠 Context-aware explanations (based on page type)  
 
 ---
 
