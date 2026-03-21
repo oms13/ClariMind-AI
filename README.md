@@ -99,7 +99,9 @@ clarity-mind-ai/
 ## 💡 Tech Stack
 
 • Frontend: JavaScript, Chrome Extension APIs
+
 • Backend: Node.js, Express
+
 • AI: Gemini API
 
 ---
