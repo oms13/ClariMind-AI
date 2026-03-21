@@ -79,3 +79,38 @@ Once your `client/dist` folder is built and the server is running, you need to l
 That's it! The ClariMind AI extension is now active in your browser. Select some text on any webpage and test it out.
 
 ---
+
+## 📁 Project Structure
+
+```
+clarity-mind-ai/
+│
+├── client/        # Chrome extension frontend
+│   ├── src/
+│   └── dist/      # Built extension (load this in Chrome)
+│
+├── server/        # Backend (API + AI logic)
+│
+└── package.json   # Root scripts
+```
+
+---
+
+## 💡 Tech Stack
+
+• Frontend: JavaScript, Chrome Extension APIs
+• Backend: Node.js, Express
+• AI: Gemini API
+
+---
+
+## ⚠️ Notes
+
+• Always load the `dist/ folder`, not `src/`
+• Make sure backend is running before using the extension
+• If extension doesn’t update, click Reload in `chrome://extensions/`
+
+---
+
+Built with 💡 by Om Sahu
+If you like this project, give it a ⭐ on GitHub!
