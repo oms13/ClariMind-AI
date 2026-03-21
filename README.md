@@ -26,9 +26,15 @@ You will need to set up your environment variables before running the applicatio
 MONGO_URI=your_mongodb_connection_string_here
 GEMINI_API_KEY=your_gemini_api_key_here
 PORT=5000
-
+```
 ---
 
 ## 🚀 Installation & Local Development
 
 Follow these steps to get the development environment running:
+
+1. Clone the repository:
+```
+git clone [https://github.com/oms13/ClariMind-AI.git](https://github.com/oms13/ClariMind-AI.git)
+cd ClariMind-AI
+```
