@@ -56,3 +56,22 @@ npm install
 3. Run the development server:
 
 Return to the root directory of the project. Running the dev script will simultaneously build the client's `dist` folder and start the Node.js backend using Nodemon.
+
+```bash
+cd ..
+npm run dev
+```
+
+## 🧩 Loading the Extension in Chrome
+
+Once your `client/dist` folder is built and the server is running, you need to load the extension into your browser:
+
+1. Open Google Chrome and navigate to `chrome://extensions/` in your address bar.
+
+2. Toggle the Developer mode switch in the top right corner to ON.
+
+3. Click the Load unpacked button that appears in the top left.
+
+4. Navigate to your project folder, select the `client/dist` directory, and click open. (This folder contains all the necessary files for the browser to run the extension).
+
+That's it! The ClariMind AI extension is now active in your browser. Select some text on any webpage and test it out.
