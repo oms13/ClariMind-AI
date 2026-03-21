@@ -1,6 +1,15 @@
 # ClariMind AI 🧠
 
-ClariMind AI is a powerful Chrome extension designed to simplify and explain any text you encounter on the web. Simply select a piece of text, click the explain option, and a side pop-up will instantly provide a clear, easy-to-understand breakdown of the content.
+ClariMind AI is a Chrome extension that helps you instantly understand any text on the internet using AI.
+Select any text → click “Explain” → get a simple explanation in a side popup.
+
+## 🤔 Why ClariMind AI?
+
+Understanding complex content online can be time-consuming and frustrating — especially with technical blogs, documentation, or academic articles.
+
+ClariMind AI solves this by bringing AI-powered explanations directly into your browsing experience, without switching tabs.
+
+---
 
 ## ✨ Features
 * **Select & Explain:** Instantly simplify complex paragraphs, technical jargon, or confusing articles directly from your browser.
