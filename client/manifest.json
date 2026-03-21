@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "ClariMind AI",
+  "version": "1.0.0",
+  "description": "Explain selected text on any webpage.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/content/index.jsx"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ]
+}

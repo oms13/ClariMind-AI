@@ -1,20 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { crx } from '@crxjs/vite-plugin';
+import manifest from './manifest.json';
 
 export default defineConfig({
-  plugins: [react()],
-  build: {
-    // This stops Vite from splitting your React code into random files
-    rollupOptions: {
-      input: {
-        main: './src/main.jsx',
-        background: './src/background.js'
-      },
-      output: {
-        entryFileNames: 'assets/[name].js',
-        chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/[name].[ext]'
-      }
-    }
-  }
-})
+  plugins: [
+    react(),
+    crx({ manifest }),
+  ],
+});
