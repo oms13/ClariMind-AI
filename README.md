@@ -34,7 +34,7 @@ PORT=5000
 Follow these steps to get the development environment running:
 
 1. Clone the repository:
-```
+```bash
 git clone [https://github.com/oms13/ClariMind-AI.git](https://github.com/oms13/ClariMind-AI.git)
 cd ClariMind-AI
 ```
