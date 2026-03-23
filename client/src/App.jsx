@@ -34,7 +34,7 @@ function App() {
   };
 
   const openDashboard = () => {
-    window.open('http://localhost:5000', '_blank');
+    window.open('http://localhost:5000', 'Coming Sooooooooooooooooooooooooooooooooon');
   };
 
   return (
