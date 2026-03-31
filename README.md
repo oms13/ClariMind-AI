@@ -2,6 +2,11 @@
 
 Welcome to the ClariMind AI Master Documentation! This document provides a comprehensive overview of a powerful browser extension that brings AI-driven explanations directly to your fingertips. Simply select any text on a webpage, and ClariMind AI will instantly provide a clear, concise explanation, tailored to your preferred style.
 
+## 🗿 IMPORTANT!!!
+
+This README is made by my Documentaion Maker AI.
+Check it Out:- https://github.com/oms13/Documentation-Maker-AI.git
+
 ## 🚀 Project Overview
 
 ClariMind AI is an innovative browser extension designed to enhance your understanding of web content. It seamlessly integrates with your browsing experience, allowing you to select any piece of text and receive an AI-generated explanation on demand. Underpinning this user-friendly frontend is a robust backend system that handles AI interactions, persists explanation history, and ensures efficient delivery of intelligent insights.
